@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+header{
+  margin-bottom: 10px;
+}
+
+nav{
+  height: 50px;
+  background-color: #fff;
+}
+
+.navbar.navbar-expand-lg.navbar-dark{
+  padding: 0px;
+}
+
+.collapse.navbar-collapse{
+  padding-top: 12px;
+}
+
+.nav-link.text-dark:last-child{
+    padding-right: 0px;
+}
+
+#logo{
+  width: 200px;
+  height: auto;
+  top: 0px;
+}
+
+.banner{
+    background-image: url('../images/background_banner.jpg');
+    width: 1180px;
+    height: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner img{
+  border-radius: 50%;
+  width: 125px;
+  position: absolute;
+  top: 19%;
+  left: 45%;
+}
+
+#nomePerfil{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  padding: 210px 200px 0px;
+  padding-left: 400px;
+}
+
+#ocupacaoPerfil{
+  font-size: 12px;
+  padding-left: 220px;
+}
+
+.resumo{
+  background-color: #f2f2f2;
+  height: 200px;
+}
+.resumo>h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.resumo>p{
+  text-align: center; 
+}
+
+.descricaoVideo{
+  background-color: #ffff;
+}
+
+#descTitulo{
+  padding-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#textoVideo{
+  width: 680px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer{
+
+}

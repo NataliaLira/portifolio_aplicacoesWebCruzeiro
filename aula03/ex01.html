@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index Exercício Semana 03</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Voltar ao menu aula 03</a> |
+            <a href="ex02.html">Exercíco 02</a> |
+           <a href="ex03.html">Exercício 03</a> |
+        </nav>
+        </header>
+        <hr>
+
+    <section>
+        <h3>Exercícios Aula 03 - Formuláriio</h3>
+
+        <article>
+            <form name="form1" method="post" action="formulario.html">
+                    <label for="nome_paciente">1). Nome do paciente</label>
+                    <input type="text" name="nome_paciente" id="nome_paciente" required/>
+                <br>
+                    <label for="registro_hospitalar">2. Registro Hospitalar</label>
+                    <input type="text" name="registro_hospitalar" id="registro_hospitalar"/>
+                <br>
+                    <label for="data_inclusao">3. Data de Inclusão</label>
+                    <input type="date" name="data_inclusao" id="data_inclusao"/>
+                <br>
+                    <label for="data_nascimento">4. Data de Nascimento</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento"/>
+                <br>
+                    <label for="email">5. Email</label>
+                    <input type="email" name="email" id="email" required/>
+                <br>
+                    <label>6. Sexo</label><br>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="feminino" name="sexo" value="Feminino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="sexo" value="Masculino">
+                <br>
+                    <label for="raca_declarada">7. Raça Declarada</label>
+                    <select name="raca_declarada" id="raca_declarada">
+                        <option value="" disabled selected>Escolha</option>
+                        <option value="branca">Branca</option>
+                        <option value="negra">Negra</option>
+                        <option value="parda">Parda</option>
+                        <option value="amarela">Amarela</option>
+                        <option value="indigena">Indígena</option>
+                        <option value="desconhecida">Desconhecida</option>
+                    </select>
+                <br>
+                <label for="">8. Como ficou sabendo do estudo?</label><br>
+                    <label for="convidado">Convidado</label>
+                    <input type="checkbox" name="estudo" id="convidado"><br>
+                    <label for="internet">Internet</label>
+                    <input type="checkbox" name="estudo" id="internet"><br>
+                    <label for="amigos">Amigos</label>
+                    <input type="checkbox" name="estudo" id="amigos"><br>
+                    <label for="convidados">Convidados</label>
+                    <input type="checkbox" name="estudo" id="convidados"><br>
+                    <label for="outros">Outros</label>
+                    <input type="checkbox" name="estudo" id="outros">
+                <br><br>
+                    <button type="submit">Submit</button>
+            </form>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    font-family: verdana;
+    font-size: 12pt;
+}
+section{
+    border: dashed 1px #000;
+    border-radius: 5px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+article{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.container-texto{
+    width: 500px;
+    text-align: justify;
+}
+
+ul{
+    font-size: 10pt;
+}
+
+figcaption{
+    font-size: 8pt;
+    text-align: center;
+}
+
+img:hover{
+    width: 120%;
+    height: 120%;
+}
+
+a{
+    text-decoration: none;
+    color:cadetblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 800px;
+    margin: 5px auto;
+    font-size: 10pt;
+    padding: 5px;
+    height: 30px;
+}
+
+footer p{
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 0;
+
+}

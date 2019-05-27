@@ -1,0 +1,84 @@
+body{
+    font-family: verdana;
+    font-size: 12pt;
+}
+section{
+    border: solid 1px #000;
+    border-radius: 5px;
+    width: 800px;
+    margin: 10px auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(191,191,191,0.5);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(191,191,191,0.5);
+    box-shadow: 10px 10px 5px 0px rgba(191,191,191,0.5);
+}
+
+article{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+img:hover{
+    width: 110%;
+    height: 110%;
+}
+
+.container-texto{
+    width: 440px;
+    padding: 0 30px 0 30px;
+    text-align: justify;
+
+}
+
+ol{
+    font-size: 10pt;
+}
+
+.borda-left{
+    border-left: dashed 1px #ccc;
+}
+
+.borda-right{
+    border-right: dashed 1px #ccc;
+}
+
+
+figcaption{
+    text-align: center;
+    font-size: 8pt;
+}
+
+.titulo, .texto-verde{
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto-verde{
+    color: cadetblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    font-size: 10pt;
+
+    border-radius: 5px;
+    width: 800px;
+    margin: 10px auto;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd232+0,2989d8+49,ff8989+100 */
+    background: #ffd232; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffd232 0%, #2989d8 49%, #ff8989 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffd232 0%,#2989d8 49%,#ff8989 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffd232 0%,#2989d8 49%,#ff8989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd232', endColorstr='#ff8989',GradientType=0 ); /* IE6-9 */
+}
+
+footer p{
+    margin-top: 20px;
+    display: inline-block;
+}

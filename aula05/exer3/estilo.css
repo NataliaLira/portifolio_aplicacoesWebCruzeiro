@@ -1,0 +1,70 @@
+body{
+    background-image: url("./imagens/bg.jpg");
+}
+#formulario{
+    left:50%;
+    top:50%;
+    margin-left:-125px; /* Metade do valor da Largura */
+    margin-top:-105px; /* Metade da valor da Altura */
+    position:absolute;
+    width:250px; /* Valor da Largura */
+    height:210px; /* Valor da Altura */
+    background: #e4dde6;
+    color:#000;
+
+    border: solid 1px #dce2de;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.30);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.30);
+}
+
+.titulo{
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.campo{
+    padding: 10px;
+}
+
+.campo span{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.campo input{
+    padding: 3px;
+    border: solid 1px #dad3cc;
+}
+
+.lembrete{
+    padding: 0 20px 10px 0;
+    float: right;
+    width: 90%;
+    clear: both;
+    text-align: right;
+    font-size: 12px;
+
+}
+
+.lembrete a{
+    color: #b9a685;
+    text-decoration: none;
+}
+
+.logar{
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#logar{
+    width: 87%;
+    background: #ff7900;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: solid 1px saddlebrown;
+}
